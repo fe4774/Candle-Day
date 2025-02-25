@@ -1,4 +1,9 @@
 {
+  "homepage": "https://fe4774.github.io/Candle-Day/",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
   "name": "contest-freelancer-app",
   "private": true,
   "version": "0.0.0",
